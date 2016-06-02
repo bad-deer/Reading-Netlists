@@ -58,6 +58,8 @@ int main(int argc, char *args[])
         open_file(&p, &g,args[i]);
         i++;
         int max_fo = 0;
+        pri_num = 0;
+        pro_num = 0;
         max_fo = count_fout(p,&pri_num,&pro_num);
         fo_list = (int *)malloc(sizeof(int) * (max_fo + 1));
         memset(fo_list, 0, sizeof(int) * (max_fo + 1));
