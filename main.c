@@ -33,13 +33,7 @@ int count_fout(struct fgate *p, int *m, int *n);
 void out_and_free(struct fgate *p, struct gate_list *q, int *f, int max, char *file_name, int m, int n);
 int ainb(const char *a, const char *b);
 
-void print_test(struct fgate *p)
-{
-    while(p){
-        printf("%s\n",p->name);
-        p = p->next;
-    }
-}
+
 
 int main(int argc, char *args[])
 {
