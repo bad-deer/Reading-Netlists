@@ -6,5 +6,22 @@
 1 结构 struct 链表动态存储很方便
 2 分配空间要释放； tmp = p->next; free(p); p = tmp;
 3 用结构+链表，要用二级指针来定义
-4 
+4 元素归零要做好
+5 数组用指针传递
+6 FILE * 指向文件的指针
+7 sizeof 返回类型大小，  strlen 才是返回字符串长度
+8 没用可用的函数自己写，很好用。比如我写的返回一个字符在字符串的位置：
+   int strloc(const char *array, char *s, int n)
+   {
+       int i = 0;
+       while(i < n){
+           if (s[0] == array[i]){
+               return i;
+           }
+           i++;
+       }
+       return -1;
+   }
+9 字符串，动态定义空间，多一位并且清零，再赋值
+10 先写到这，睡觉了
 
