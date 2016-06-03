@@ -4,3 +4,6 @@ segment fault
 
 sitll looking it up
 
+which is find that 
+when use strcasecmp,we must make sure both array is not empty.
+
