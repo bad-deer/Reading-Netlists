@@ -1,0 +1,6 @@
+the code runs nicely on windows
+but after i gcc it on linux, when i run the program, errer shows up:
+segment fault
+
+sitll looking it up
+
